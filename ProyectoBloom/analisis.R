@@ -1,0 +1,7 @@
+library(ggplot2)
+setwd("C:/Users/brown/OneDrive/Desktop/I/Escuela/Informatica/Netbeans/DatosUwU/EstructurasDeDatosAVPy/ProyectoBloom/CSVs")
+data <- read.csv("resultados.csv")
+summary(data)
+
+g <- ggplot(data, aes(x=m, y = fP)) + geom_line() + geom_point() + facet_wrap(~k)
+g 

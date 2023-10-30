@@ -1,6 +1,6 @@
 d = {}
-d["fer"] = "fernandoUwU"
-d["a"] = "OwO"
+d["fer"] = "fernando"
+d["a"] = "b"
 
 print(d.keys())
 for i, j in enumerate(d.values()):
