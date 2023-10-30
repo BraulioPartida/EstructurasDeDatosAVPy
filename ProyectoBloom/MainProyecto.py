@@ -51,6 +51,7 @@ datos_revisar.to_csv("ProyectoBloom/CSVs/revisarBF.csv", index=False)
 
 
 d = {"k": [], "m": [], "fP": []}
+
 for k in range(1, 60):
     resp = calcMinM(0.01, datos_insertar, datos_revisar, datos_revisar.size, k).split(
         ", "
