@@ -19,7 +19,6 @@ def calcMinM(fPMAX: float, estan, noEstan, n: int, k: int) -> str:
     nMax = n * 3
     cantNoEstan = noEstan.size
     p = 0
-    bandera = True
     while True:
         nMid = (nMin + nMax) // 2
         enumEstan = enumerate(estan["url"])
@@ -63,3 +62,4 @@ for k in range(1, 60):
     print("\n")
 
 datosResultantes = pd.DataFrame(d)
+datosResultantes.to_csv("ProyectoBloom/CSVs/resultados.csv", index=False)
