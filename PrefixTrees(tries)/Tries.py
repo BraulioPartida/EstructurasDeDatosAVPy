@@ -57,3 +57,11 @@ class Trie:
                 return False
         else:
             return False
+
+    def printTrie(self, actual=None, palabra=""):
+        if actual is None:
+            actual = self.raiz
+        if actual.fin:
+            print(palabra)
+        for letra, nodo in sorted(actual.hijos.items()):
+            self.printTrie(nodo, palabra + letra)
