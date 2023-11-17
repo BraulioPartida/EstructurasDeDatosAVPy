@@ -65,3 +65,14 @@ class Trie:
             print(palabra)
         for letra, nodo in sorted(actual.hijos.items()):
             self.printTrie(nodo, palabra + letra)
+
+    def insertFromFile(self, filename):
+        with open(filename, "r") as file:
+            for line in file:
+                for word in line.split():
+                    self.inserta(word)
+
+
+trie = Trie()
+trie.insertFromFile("texto.txt")
+trie.printTrie()
