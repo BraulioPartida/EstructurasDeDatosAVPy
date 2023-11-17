@@ -67,10 +67,10 @@ class Trie:
             self.printTrie(nodo, palabra + letra)
 
     def insertFromFile(self, filename):
-        with open(filename, "r") as file:
+        with open(filename, "r", encoding="utf-8") as file:
             for line in file:
                 for word in line.split():
-                    self.inserta(word)
+                    self.inserta(word.lower())
 
 
 trie = Trie()
