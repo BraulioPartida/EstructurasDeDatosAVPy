@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 class Grafo:
-    def __init__(self):
+    def __initx__(self):
         self.G = {}
 
     def insertaDirigido(self, origen, destino, peso=None):
