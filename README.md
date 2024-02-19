@@ -14,4 +14,9 @@ Tries
 
 Los Tries son una estructura de datos jerárquica que se utiliza para almacenar datos asociados a una cadena. Funcionan almacenando los datos en un árbol, donde cada nodo del árbol representa una letra de la cadena.
 
-Para acceder a los datos asociados a una cadena, se sigue el camino desde la raíz del árbol hasta el nodo que representa la última letra de la cadena.# EstructurasDeDatosAVPy
+Para acceder a los datos asociados a una cadena, se sigue el camino desde la raíz del árbol hasta el nodo que representa la última letra de la cadena.
+
+Grafos
+Un grafo es una representación abstracta de un conjunto de objetos interconectados, donde los objetos son llamados "vértices" (o nodos) y las conexiones entre ellos son llamadas "aristas" (o bordes). Los grafos se utilizan para modelar relaciones entre entidades, como redes de computadoras, rutas de transporte, relaciones sociales, entre otros.
+
+# EstructurasDeDatosAVPy
