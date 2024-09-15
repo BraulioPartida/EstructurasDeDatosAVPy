@@ -1,4 +1,1 @@
-Este texto agrega lo que querías decir cara a cara al principio y al final. En el principio, dices 
-que te gustaría hablar con ellos en persona para expresarles tus disculpas de manera más sincera. Esto 
-demuestra que realmente te importa lo que piensen de ti y
-que estás dispuesto a hacer lo que sea para recuperar su confianza.
+You can convert the image into an ASCII art version, which is a text-based representation of the image, and store it inside the .txt file. Tools like catimg or jp2a can convert an image into ASCII that you can then copy into a text file.
